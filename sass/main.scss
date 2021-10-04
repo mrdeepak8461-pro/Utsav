@@ -10,7 +10,7 @@ $color_1: #f3413e;
 $color_2: #212529;
 $color_3: #333;
 $color_4: #f1f1f1;
-$color_5: #F5D558;
+$color_5: #f5d558;
 // $color_5: #F0DF7F;
 .h3 {
     font-size: 2.5rem;
@@ -450,7 +450,6 @@ $color_5: #F5D558;
 // ************************************************    Start of wedding and events page
 
 .events-page {
-
     .btn_box {
         .btn {
             border: 2px solid $color_5;
@@ -609,12 +608,60 @@ $color_5: #F5D558;
             }
         }
     }
-    .enquiry_form{
+    .enquiry_form {
         padding: 2rem 0rem;
         background-color: $color_3;
-
     }
-    .footer{
+    .footer {
+        margin-top: 0rem;
+    }
+}
+
+// ************************************************   End of wedding and events page
+// ************************************************   Start of Contact us page
+
+.contactus-page {
+    .contactus-page-header {
+        height: 250px;
+        background-color: $color_4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form {
+        padding: 3rem 0rem;
+
+        h4 {
+            letter-spacing: 1px;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+
+        .form-control {
+            background-color: transparent !important;
+        }
+        .icon {
+            display: flex;
+            margin: 3rem 0rem;
+            a {
+     
+                color: $color_2;
+            }
+            i:hover {
+                transform: translateY(-10px);
+                transition: 0.8s;
+            }
+            i {
+                margin: 0rem 1rem 0rem 0rem;
+            }
+        }
+    }
+    .btn_box {
+        .btn:hover {
+            color: $color_1;
+        }
+    }
+    .footer {
         margin-top: 0rem;
     }
 }

@@ -516,33 +516,33 @@ body {
 }
 
 .events-page .btn_box .btn {
-  border: 2px solid #F5D558;
+  border: 2px solid #f5d558;
   background-color: transparent;
 }
 
 .events-page .btn_box .btn:hover {
-  background-color: #F5D558;
+  background-color: #f5d558;
   color: black;
 }
 
 .events-page a {
-  color: #F5D558;
+  color: #f5d558;
 }
 
 .events-page .h3 {
-  color: #F5D558;
+  color: #f5d558;
 }
 
 .events-page .p {
-  color: #F5D558 !important;
+  color: #f5d558 !important;
 }
 
 .events-page .line div {
-  border: 2px solid #F5D558;
+  border: 2px solid #f5d558;
 }
 
 .events-page .line .div_1 {
-  background-color: #F5D558;
+  background-color: #f5d558;
 }
 
 .events-page .events-page-header {
@@ -559,7 +559,7 @@ body {
 }
 
 .events-page .we_plan_your_dreams p {
-  color: #F5D558;
+  color: #f5d558;
 }
 
 .events-page .we_plan_your_dreams .cards_box {
@@ -579,7 +579,7 @@ body {
 }
 
 .events-page .we_plan_your_dreams .cards_box .card .card-body .card-title {
-  color: #F5D558;
+  color: #f5d558;
   font-weight: bold;
   letter-spacing: 0.8px;
   font-size: 1.3rem;
@@ -590,7 +590,7 @@ body {
 }
 
 .events-page .we_plan_your_dreams .cards_box .card .card-body .card-text {
-  color: #F5D558;
+  color: #f5d558;
   font-size: 0.9rem;
   letter-spacing: 1px;
 }
@@ -615,13 +615,13 @@ body {
 }
 
 .events-page .event_types_details .nav .nav-item .nav-link {
-  border: 2px solid #F5D558;
+  border: 2px solid #f5d558;
   color: white;
   margin-right: 1rem;
 }
 
 .events-page .event_types_details .nav .nav-item .active {
-  background-color: #F5D558;
+  background-color: #f5d558;
   color: black;
 }
 
@@ -694,24 +694,24 @@ body {
 }
 
 .events-page .our_service .owl-carousel .item {
-  border: 2px solid #F5D558;
+  border: 2px solid #f5d558;
   border-radius: 0.5rem;
 }
 
 .events-page .our_service .owl-carousel .owl-nav .owl-next:hover {
-  color: #F5D558;
+  color: #f5d558;
   background-color: transparent !important;
 }
 
 .events-page .our_service .owl-carousel .owl-nav .owl-prev:hover {
-  color: #F5D558;
+  color: #f5d558;
   background-color: transparent !important;
 }
 
 .events-page .our_service .owl-carousel .owl-nav {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #F5D558;
+  color: #f5d558;
 }
 
 .events-page .enquiry_form {
@@ -720,6 +720,64 @@ body {
 }
 
 .events-page .footer {
+  margin-top: 0rem;
+}
+
+.contactus-page .contactus-page-header {
+  height: 250px;
+  background-color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactus-page .form {
+  padding: 3rem 0rem;
+}
+
+.contactus-page .form h4 {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.contactus-page .form .form-control {
+  background-color: transparent !important;
+}
+
+.contactus-page .form .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem 0rem;
+}
+
+.contactus-page .form .icon a {
+  color: #212529;
+}
+
+.contactus-page .form .icon i:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.contactus-page .form .icon i {
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+.contactus-page .btn_box .btn:hover {
+  color: #f3413e;
+}
+
+.contactus-page .footer {
   margin-top: 0rem;
 }
 /*# sourceMappingURL=main.css.map */
